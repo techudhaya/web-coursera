@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+  	margin-top: 2%;
+}
+
+.row {
+	width: 100%;
+	margin-top: 3%;
+}
+
+section > div {
+	border: 1px solid black;
+	background-color: grey;
+	margin: 20px;
+}
+
+section > div .title {
+	float: right;
+	border: 1px solid black;
+	font-weight: bold;
+	padding: 0 10%;
+	font-size: 1.25em;
+}
+
+section > div > p {
+	margin: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: black;
+	clear: right;
+}
+
+#s1 .title {
+	background-color: purple;
+}
+#s2  .title {
+	background-color: blue;
+}
+#s3  .title {
+	background-color: green;
+}
+
+/* Desktop browser view */
+@media (min-width: 992px) {
+	  .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-12 {
+		float: left;
+	}
+
+	.col-lg-4 {
+		width: 33.33%;
+	}
+
+	.col-lg-6 {
+		width: 50%;
+	}
+
+	.col-lg-12 {
+		width: 100%;
+	}
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+	 .col-md-4, .col-md-6, .col-md-12 {
+		float: left;
+	}
+
+	.col-md-4 {
+		width: 33.33%;
+	}
+	.col-md-5 {
+		width: 41.66%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-12 {
+		float: left;
+	}
+
+	.col-sm-4 {
+		width: 33.33%;
+	}
+	.col-sm-5 {
+		width: 41.66%;
+	}
+	.col-sm-6 {
+		width: 50%;
+	}
+
+	.col-sm-12 {
+		width: 100%;
+	}
+}
