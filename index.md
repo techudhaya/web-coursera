@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/techudhaya/web-coursera/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/techudhaya/web-coursera/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="uft-8">
+  	<meta contenct="eidth=device-width, initial-scale=1" name="viewport">
+  	<title>Module 2</title>
+  	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  	<header>
+		<h1>Bakery</h1>
+  	</header>
+  	
+  	<div class="row">
+  		<div>
+		<section id="s1" class="col-lg-4 col-md-6 col-sm-12">
+			<div>
+				<div class="title">Cake</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+			<div>
+		</section>
+		<section id="s2" class="col-lg-4 col-md-6 col-sm-12">
+			<div>
+				<div class="title">Buger</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+		</div>
+		</section>
+		<section id="s3" class="col-lg-4 col-md-12 col-sm-12">
+			<div>
+				<div class="title">Pizza</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
